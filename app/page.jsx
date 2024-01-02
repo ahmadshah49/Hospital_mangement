@@ -1,11 +1,10 @@
 "use client"
 
-import Image from 'next/image'
+
 import Biography from './Components/Biography/Biography'
 import Hero from './Components/Hero/Hero'
 import Slider from './Components/Slider/Slider'
 import Card from './Components/Card/Card'
-import Footer from './Components/Footer/Footer'
 
 
 export default function Home() {
@@ -14,8 +13,8 @@ console.log("kfk");
   }
   return (
    <>
-   <Hero/>
-   <Biography/>
+   <Hero src={"/Vector.png"}/>
+   <Biography text={'Biography'} src={'/bioGraphyLeft.png'}/>
    <Slider/>
    <div className=' my-36  lg:mx-16 md:mx-10 sm:mx-10 '>  
 <h1 className=' text-3xl text-center font-bold'>Our Doctors</h1>
@@ -49,7 +48,7 @@ console.log("kfk");
 </button>
 </form>
  </div>
- <Footer/>
+
   
    </>
   )

@@ -36,11 +36,11 @@ const Navbar = ({scrollThreshold = 50 }) => {
  <Link href={"/"} className=' md:text-base  max-sm:text-sm font-bold'>MediLab Hospital</Link>
         </div>
         <ul className=' items-center space-x-2 sm:hidden max-sm:hidden md:flex'>
-<li><Link className='active:bg-[#3f6db1] active:text-white duration-300 hover:bg-[#C5DCFF] lg:p-2 md:p-1  rounded-md font-semibold' href={"/"}>Home</Link></li>
-<li><Link className='focus:bg-[#3f6db1] active:text-white duration-300 hover:bg-[#C5DCFF] lg:p-2 md:p-1  rounded-md font-semibold' href={"/appointment"}>Appointment</Link></li>
-<li><Link className='active:bg-[#3f6db1] active:text-white duration-300 hover:bg-[#C5DCFF] lg:p-2 md:p-1  rounded-md font-semibold' href={"/services"}>Services</Link></li>
-<li><Link className='active:bg-[#3f6db1] active:text-white duration-300 hover:bg-[#C5DCFF] lg:p-2 md:p-1  rounded-md font-semibold' href={"/aboutUs"}>About Us</Link></li>
-<li><Link className='active:bg-[#3f6db1] active:text-whiteduration-300 hover:bg-[#C5DCFF] lg:p-2 md:p-1  rounded-md font-semibold' href={"/contactUs"}>Contact Us</Link></li>
+<li><Link className='focus:bg-[#3f6db1] active:text-white duration-300 hover:bg-[#C5DCFF] lg:p-2 md:p-1  rounded-md font-semibold' href={"/"}>Home</Link></li>
+<li><Link className='focus:bg-[#3f6db1] active:text-white duration-300 hover:bg-[#C5DCFF] lg:p-2 md:p-1  rounded-md font-semibold' href={"/Appointment"}>Appointment</Link></li>
+<li><Link className='focus:bg-[#3f6db1] active:text-white duration-300 hover:bg-[#C5DCFF] lg:p-2 md:p-1  rounded-md font-semibold' href={"/"}>Services</Link></li>
+<li><Link className='focus:bg-[#3f6db1] active:text-white duration-300 hover:bg-[#C5DCFF] lg:p-2 md:p-1  rounded-md font-semibold' href={"/AboutUs"}>About Us</Link></li>
+<li><Link className='focus:bg-[#3f6db1] active:text-whiteduration-300 hover:bg-[#C5DCFF] lg:p-2 md:p-1  rounded-md font-semibold' href={"/ContactUs"}>Contact Us</Link></li>
         </ul> 
         <div className='md:flex sm:hidden max-sm:hidden space-x-2'>
 <ButtonLight btnText={"Sign in"} hrefProp={"/signIn"}/>
@@ -67,10 +67,10 @@ const Navbar = ({scrollThreshold = 50 }) => {
         </div>
         <ul className='  space-y-10 md:hidden max-sm:flex flex-col py-10 justify-between w-full '>
 <li className='active:bg-[#9083D5] border-b border-[#9083D5] hover:text-white active:text-white duration-300 py-2 px-4 w-11/12   font-semibold'><Link  href={"/"}>Home</Link></li>
-<li className='active:bg-[#9083D5] border-b border-[#9083D5] hover:text-white active:text-white duration-300 py-2 px-4 w-11/12   font-semibold'><Link href={"/appointment"}>Appointment</Link></li>
-<li className='active:bg-[#9083D5] border-b border-[#9083D5] hover:text-white active:text-white duration-300 py-2 px-4 w-11/12   font-semibold'><Link  href={"/services"}>Services</Link></li>
-<li className='active:bg-[#9083D5] border-b border-[#9083D5] hover:text-white active:text-white duration-300 py-2 px-4 w-11/12   font-semibold'><Link  href={"/aboutUs"}>About Us</Link></li>
-<li className='active:bg-[#9083D5] border-b border-[#9083D5] hover:text-white active:text-white duration-300 py-2 px-4 w-11/12   font-semibold'><Link  href={"/contactUs"}>Contact Us</Link></li>
+<li className='active:bg-[#9083D5] border-b border-[#9083D5] hover:text-white active:text-white duration-300 py-2 px-4 w-11/12   font-semibold'><Link href={"/Appointment"}>Appointment</Link></li>
+<li className='active:bg-[#9083D5] border-b border-[#9083D5] hover:text-white active:text-white duration-300 py-2 px-4 w-11/12   font-semibold'><Link  href={"/"}>Services</Link></li>
+<li className='active:bg-[#9083D5] border-b border-[#9083D5] hover:text-white active:text-white duration-300 py-2 px-4 w-11/12   font-semibold'><Link  href={"/AboutUs"}>About Us</Link></li>
+<li className='active:bg-[#9083D5] border-b border-[#9083D5] hover:text-white active:text-white duration-300 py-2 px-4 w-11/12   font-semibold'><Link  href={"/ContactUs"}>Contact Us</Link></li>
         </ul> 
 <div className='flex items-center space-x-2  bottom-5'>
 <ButtonLight btnText={"Sign in"} hrefProp={"/signIn"}/>

@@ -7,7 +7,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className='flex flex-wrap max-md:flex-col max-sm:flex-col py-8 border-t border-black/40   mx-4 '>
+    <div className=' flex flex-wrap max-md:flex-col max-sm:flex-col py-8 border-t border-black/40   mx-4 '>
          <div className='flex top-0 w-[25%] max-sm:my-2 max-sm:w-full items-center space-x-2 max-sm:space-x-1'>
            <Image
            src={'/logo.png'}

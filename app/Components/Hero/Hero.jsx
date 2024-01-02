@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import ButtonDark from '../ButtonDark/ButtonDark';
 
-const Hero = () => {
+const Hero = ({src}) => {
     return (
         <div className='flex max-sm:flex-col justify-center  w-full h-[85vh] pl-4 max-w-screen-2xl mx-auto   '>
             <div className='w-[50%] max-sm:w-full flex flex-col justify-center max-sm:mt-96'>
@@ -18,19 +18,16 @@ const Hero = () => {
                 </div>
                 <ButtonDark btnText={'Tour'}/>
             </div>
-            <div className='w-[50%] max-sm:w-full  '>
-                <div className=' h-full w-full'>
+            <div className='w-[50%] max-sm:w-full max-sm:h-full  '>
+                
                     <Image
-                        src='/Vector.png'
+                        src={src}
                         alt='Vector Image'
                         width={1000}
                         height={1000}
-                        className=' z-30 w-full h-full '
                     />
-                </div>
-                <div className=' max-sm:top-5 top-32 left-0 w-full h-full z-40'>
-                    
-                </div>
+                
+                
             </div>
         </div>
     );
