@@ -10,6 +10,7 @@ const nextConfig = {
       },
     ],
   },
+  outDir: './.next_build',
 }
 
 module.exports = nextConfig

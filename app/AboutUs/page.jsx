@@ -6,7 +6,7 @@ const page = () => {
   return (
     <>
 <Hero src={'/services.png'}/>
-<div className='max-sm:mt-96'>
+<div className='max-sm:mt-96 pb-16'>
 <Biography src={"/grp.jpg"} text={"About"}/>
 </div>
     </>
